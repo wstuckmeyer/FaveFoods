@@ -1,0 +1,38 @@
+{
+  "name": "NativeBaseBoilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "2.2.0",
+    "node-fetch": "^1.7.3",
+    "oauthsimple": "0.0.1",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.1",
+    "react-native-animatable": "^1.2.3",
+    "react-native-foursquare-api": "0.0.4",
+    "react-native-google-places-web": "0.0.5",
+    "react-native-maps": "^0.16.3",
+    "react-native-storage": "^0.2.2",
+    "react-native-swipeout": "^2.2.2",
+    "react-native-tab-navigator": "^0.3.4",
+    "react-navigation": "^1.0.0-beta.11",
+    "realm": "^1.11.1",
+    "uuid": "^3.1.0",
+    "whatwg-fetch": "^2.0.3",
+    "yelp": "^1.0.2",
+    "yelp-api-v3": "^1.5.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
